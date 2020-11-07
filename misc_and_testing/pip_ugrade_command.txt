@@ -1,0 +1,4 @@
+# do not run a sudo
+#does not work in virtual envs
+
+pip freeze --user | cut -d'=' -f1 | xargs -n1 pip install -U
