@@ -40,7 +40,7 @@ def routingNum():
 
 #generates a valid US zipcode
 def genZpCode():
-    return linecache.getline("zipcodes2.txt", random.randint(1, 36600))
+    return linecache.getline("zipcodes2.txt", random.randint(1, 35415))
 
 
 #generates a valid-looking us phone number

@@ -185,7 +185,7 @@ while True:
         dDList[3].click()
         smallWait()
         LicStStr = "react-select-9-option-"
-        LicStStr += str(random.randint(0, 55))
+        LicStStr += str(random.randint(0, 35))
         driver.find_element_by_id(LicStStr).click()
         smallWait()
 
